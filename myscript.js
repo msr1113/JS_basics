@@ -1,4 +1,4 @@
-alert("Welcome to your bank")
-var deposit = prompt("How much would you like to deposit today ")
-alert("You've deposiyed"+deposit)
-console.log("You are a cool person")
+var lbs = prompt("Weight in lbs");
+var kg = lbs*0.454;
+alert("That is: "+kg+" kilograms");
+console.log("Conversion complete")
