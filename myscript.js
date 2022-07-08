@@ -1,6 +1,16 @@
+// use for loop to print (console.log()) out the word "hello" times
 
-var word = "ABABABABAB"
+//by for loop
 
-for(var i=0; i < word.length;i=i+2){
-    console.log(word[i])
-}
+// for(i=0;i<5;i++){
+//     console.log("hello")
+// }
+
+
+// by while loop
+
+// x=0
+// while(x<5) {
+//     console.log("hello from while")
+//     x=x+1
+// }
