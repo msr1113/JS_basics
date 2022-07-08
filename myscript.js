@@ -1,12 +1,4 @@
 
-var x = 1;
-
-while (x<11) {
-
-
-    if(x %2 === 0 ){
-        console.log(x)
-    }
-
-    x=x+1
+for(var num = 0;num < 5;num++) {
+    console.log("number is "+num)
 }
