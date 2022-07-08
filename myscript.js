@@ -1,14 +1,12 @@
 
-var x = 0;
+var x = 1;
 
-while (x<5) {
-    console.log("x is currently:" + x)
+while (x<11) {
 
-    if(x ===3 ){
-        console.log(" x is equal to 3")
-        break;
+
+    if(x %2 === 0 ){
+        console.log(x)
     }
 
-    console.log("x is still less than 5,adding 1 to x")
     x=x+1
 }
