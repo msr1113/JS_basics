@@ -1,14 +1,8 @@
-var ham = 0
-var cheese = 0
 
-var report = "blank";
+var x = 0;
 
-if (ham >= 10 && cheese >= 10) {
-    report = "Strone sales of both ham and cheese!"
-} else if(ham === 0 && cheese === 0) {
-    report = "Nothing sold!"
-} else {
-    report = "We had some sales of items"
+while (x<5) {
+    console.log("x is currently:" + x)
+    console.log("x is still less than 5,adding 1 to x")
+    x=x+1
 }
-
-console.log(report)
