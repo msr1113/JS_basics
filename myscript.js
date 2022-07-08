@@ -1,16 +1,17 @@
-// use for loop to print (console.log()) out the word "hello" times
+// use loops to console.log() all odd numbers from 1 to 25
+// do this using two methods, while loop and for loop
 
-//by for loop
+// using for loop
 
-// for(i=0;i<5;i++){
-//     console.log("hello")
+// for(x=1;x<26;x=x+2){
+//     console.log(x)
 // }
 
+// using while loop
 
-// by while loop
+x=1
 
-// x=0
-// while(x<5) {
-//     console.log("hello from while")
-//     x=x+1
-// }
+while(x<26){
+    console.log('using while:',x)
+    x=x+2
+}
