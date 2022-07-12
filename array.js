@@ -33,7 +33,7 @@ if(start === 'y') {
         }else if (request === 'remove'){
             remove()
         }else {
-            alert("Not recognzied,will quit")
+            alert("Not recognized,will quit")
             request = "quit"
         }
     }
