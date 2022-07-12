@@ -24,16 +24,16 @@
 // employee.report()
 
 
-var employee = {
-    name:"John Smith",
-    job:"Programmer",
-    age:31,
-    lastName:function(){
-        var a = this.name.split(' ')
-        console.log("last name is ",a[1])
-    }
-
-}
-
-employee.lastName()
+// var employee = {
+//     name:"John Smith",
+//     job:"Programmer",
+//     age:31,
+//     lastName:function(){
+//         var a = this.name.split(' ')
+//         console.log("last name is ",a[1])
+//     }
+//
+// }
+//
+// employee.lastName()
 
